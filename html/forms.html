@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- 
+    single line input type="text"
+
+    multiline => textarea
+
+    radio => only one option choose
+    checkbox => one or more option choose
+
+
+  
+  
+  
+  
+  
+    attribute
+    ========== 
+    placeholder
+    name
+    value
+    id
+    for
+    readonly
+    required
+    disabled
+    maxlength
+    min max
+    --> 
+    <h1>Form</h1>
+    <fieldset>
+        <legend>Student Details</legend>
+        <form action="" method="get">
+            <label for="firstname">Enter your Name? 🧑</label>
+            <input type="text" id="firstname" name="fname" placeholder="enter your name ? Ex.John" required
+                maxlength="10">
+            <br>
+
+            <label for="">Enter your Father Name?</label>
+            <input type="text" name="fathername" required> <br>
+
+            <label for="">Choose your Gender?</label> <br>
+            <input type="radio" name="gender" value="Male">Male <br>
+            <input type="radio" name="gender" value="Female">Female <br><br><br><br>
+
+            <label for="">Choose your Degree?</label>
+            <input type="checkbox" name="degree" value="BE"> BE
+            <input type="checkbox" name="degree" value="ME"> ME
+            <input type="checkbox" name="degree" value="MBA"> MBA <br>
+
+            <label for="">Email</label>
+            <input type="email" name="emailid" required> <br>
+            <label for="">Password</label>
+            <input type="password" name="password" required>
+            <br>
+            <label for="">DOB</label> <br>
+            <!-- YYYY-mm-dd -->
+            <input type="date" name="dob" value="2025-12-11" min="2025-12-11" max="2025-12-24"> <br>
+            <label for="">District</label>
+            <input type="text" value="Trichy" readonly> <br>
+
+            <label for="">Enter age?</label> <br>
+            <input type="number" min="18" max="100"> <br>
+
+
+            <!-- <input type="time">
+        <input type="datetime-local">
+        <input type="month">
+        <input type="week">
+        <br>
+        <br>
+
+        <input type="range">
+
+        <input type="color">
+
+        <input type="file">
+
+        <input type="hidden">
+        <input type="number">
+
+        <input type="tel"> <br>
+        <br><br><br><br><br>
+
+        <input type="url"> -->
+            <!-- <input type="button" value="Go">
+        <input type="reset">
+        <input type="submit"> -->
+
+            <label for="">Enter your Feedback</label> <br>
+            <textarea name="" id="" cols="30" rows="5" name="feedback" placeholder="Enter review" disabled></textarea>
+            <br>
+
+            <label for="">Choose Option</label> <br>
+            <select name="degree_details" id="" multiple size="5">
+                <optgroup label="BE">
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="EEE" selected>EEE</option>
+                    <option value="ECE">ECE</option>
+                </optgroup>
+                <optgroup label="ME">
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="EEE">EEE</option>
+                    <option value="ECE">ECE</option>
+                </optgroup>
+
+            </select> <br>
+
+            <button type="submit">Submit</button>
+            <!-- <button type="button">go</button> -->
+            <button type="reset">Reset</button>
+
+
+        </form>
+    </fieldset>
+
+
+    <details>
+        <summary>Class Details</summary>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In autem hic, nostrum fuga pariatur quae dicta magni est quas iste nobis a culpa temporibus, laboriosam ad debitis assumenda! Velit, soluta.
+    </details>
+
+
+
+
+</body>
+
+</html>

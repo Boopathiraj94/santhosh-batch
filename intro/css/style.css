@@ -1,0 +1,43 @@
+/* p{
+    background-color: yellow;
+} */
+
+/* 
+bg -backgroud
+clr -> color
+*/
+
+/* selector */
+/* element selector */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#bg-yellow{
+    background-color: yellow;
+}
+
+h1{
+    background-color: blueviolet;
+}
+
+/* class selector */
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+
+.bg-blue{
+    background-color: blue;
+}
+
+#bg-orange{
+    background-color: orange;
+}
+
