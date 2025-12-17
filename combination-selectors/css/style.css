@@ -1,0 +1,25 @@
+/* decendent */
+/* div p{
+    background-color: blueviolet;
+} */
+
+/* child selector */
+
+div>p {
+    background: goldenrod;
+}
+
+/* sibling */
+
+/* p+h1 {
+    background-color: seagreen;
+} */
+
+/* subsequent */
+p~h1 {
+    background-color: seagreen;
+}
+
+a~h1{
+    background-color: sandybrown;
+}
