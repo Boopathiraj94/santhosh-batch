@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Eater&display=swap');
 
 *{
-     font-family: "Eater", serif;  
+     /* font-family: "Eater", serif;   */
 }
 h1{
     /* font-family: serif; */
@@ -18,8 +18,17 @@ h1{
 
     /* font-family: "Ballet", cursive; */
 
+
+
 }
 
 p{
-    
+    font-weight:lighter;
+    /* 100 -900 , bold , bolder, lighter */
+    font-size: 20px;
+    font-style: oblique;
+
+    /* italic , oblique */
+
+    font-variant: small-caps;
 }

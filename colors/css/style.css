@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.banner1 {
+    border: 2px solid;
+    height: 40vh;
+    /* background-image: url(../images/photo-masthead-375-BoK_p8LG.png); */
+    /* background-image: url(https://images.unsplash.com/photo-1579546929518-9e396f3cc809?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmFubmVyJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D);
+     background-repeat: no-repeat; */
+    /* background-repeat: repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y; */
+    /* 
+    background-position: left top;
+    background-position: left center;
+    background-position: left bottom;
+    background-position: center top;
+    background-position: center;
+    background-position: center bottom;
+    background-position: right bottom;
+    background-position: right center;
+    background-position: right top;
+    background-position: 50% 20%;
+    background-position: 5px 20px; */
+
+    /* background-size: cover;
+    background-size: contain;
+    background-size: auto; */
+
+    /* background-position: center;
+    background-size: cover; */
+
+    background: url(https://wallpaperbat.com/img/738885-simple-background-youtube-banner-background-youtube-banner-design-youtube-banner-template.jpg) no-repeat center;
+    background-size: cover;
+    /* background-attachment:scroll; */
+    background-attachment: fixed;
+    
+
+}
+.banner2{
+    background: url(https://i.pinimg.com/originals/ce/a5/24/cea5244a6d1d936ac64ff5c0b03228b3.jpg) no-repeat center;
+    background-size: cover;
+    height: 30vh;
+     background-attachment: fixed;
+}
+
+h1{
+    background-color: saddlebrown;
+}
+
+
+/* p{
+    /* color: red; */
+/* color: rgba(12, 65, 86, 0.903);  
+    color: #690a0a92;
+
+    background-color: red;
+} */
