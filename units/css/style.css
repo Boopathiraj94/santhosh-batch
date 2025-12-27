@@ -1,0 +1,64 @@
+
+/* html{
+    font-size: 10px;
+} */
+
+
+h1{
+    /* font-size: 16px; */
+    /* font-size: 1cm; */
+    /* font-size: 1mm; */
+    /* font-size: 1in; */
+    /* font-size: 1pt; */
+    /* font-size: 1pc; */
+
+    /* font-size: 20px; */
+
+    /* em 
+    16px x 2 =32px
+    
+    */
+}
+/* 
+.box1{
+    font-size: 15px;
+}
+
+.box1 h1{
+    font-size: 3em;
+
+    /* 
+    15px  x 3em = > 45px
+     
+}
+
+
+.box2{
+    font-size: 5px;
+}
+
+.box2 h1{
+    /* font-size: 5em;  
+    font-size: 5rem;
+
+    /* 16px x 5rem => 80px  
+} */
+
+
+h1{
+    /* font-size: 10vw; */
+    /* font-size: 10vh; */
+}
+
+.box{
+    border: 2px solid;
+
+}
+
+.box1{
+    width: 50px;
+}
+
+.box2{
+    width: 50%;
+}
