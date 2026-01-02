@@ -1,0 +1,78 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+section {
+
+    /* border-style: dashed; */
+    /* border-style:dotted;
+    border-style:double; */
+    width: 300px;
+    height: 300px;
+    /* height: 300px; */
+    /* */
+/* display: flex;
+justify-content: center;
+align-items: center; */
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: linear-gradient(red,yellow);
+    /* color: white; */
+    /* border-style:groove; */
+    /* border-style:hidden; */
+    /* border-style:inset; */
+    /* border-style:outset; */
+    /* border-style:ridge; */
+    /* border-style:solid;
+    border-width: 20px;
+    border-color: teal; */
+
+    /* border: 20px dotted darkblue; */
+    /* border-top-style: dotted;
+    border-top-width: 20px;
+    border-top-color: red; */
+
+    /* border-top: 10px dotted red;
+    border-right: 20px dashed teal;
+    border-bottom: 10px solid fuchsia;
+    border-left: 10px groove gold; */
+
+    /* border-left: 20px solid teal;
+    border-right: 20px solid teal; */
+
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; */
+    /* border-radius: 20px 30px 40px 50px; */
+    /* border-radius: 20px 30px 40px; */
+    /* border-radius: 20px 30px; */
+    /* border-radius:   10rem 0; */
+    /* border-radius: 46% 54% 70% 30% / 56% 56% 44% 44% ; */
+    /* clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); */
+    /* border: 2px solid; */
+
+    /* clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); */
+    border-radius: 50%;
+
+    /* outline-style: dotted;
+    outline-width: 10px;
+    outline-color: teal; */
+    outline: 10px dotted darkcyan;
+    outline-offset: 20px;
+
+}
+
+section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ border-radius:inherit;
+}
