@@ -7,6 +7,7 @@
 .container {
     border: 2px solid red;
     height: 100vh;
+    position: relative;
 }
 
 .box {
@@ -54,22 +55,70 @@
 .box .inside-box2 {
     right: -150px;
     /* background-color: seagreen; */
-     transition: 1s;
+    transition: 1s;
 }
 
-.box .inside-box1{
+.box .inside-box1 {
     left: -150px;
     /* background: saddlebrown; */
     transition: 1s;
 }
 
-.box:hover .inside-box1{
+.box:hover .inside-box1 {
     left: 0;
 }
-.box:hover .inside-box2{
+
+.box:hover .inside-box2 {
     right: 0;
 }
 
-.shape1{
+.shape1 {
     clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+}
+
+/* .card{
+    border: 2px solid;
+    width: 100px;
+    height: 100px;
+}
+
+.card2{
+    position: absolute;
+    bottom: 0;
+}
+
+.card3{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+} */
+
+.card {
+    border: 2px solid;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.card .inside-card {
+    border: 2px solid;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    left: -300px;
+    background: rgba(197, 197, 197, 0.412);
+    transition: 1s;
+}
+
+.card:hover .inside-card{
+    left: 0;
 }
