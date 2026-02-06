@@ -1,0 +1,110 @@
+:root {
+    --theme-clr: #4da8e9;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* a:hover{
+    background-color: darkcyan;
+} */
+
+/* a:visited{
+    color: brown;
+} */
+
+/* a:active{
+    color: seagreen;
+} */
+
+/* a:link{
+    color: tomato;
+} */
+
+
+/* li:first-child {
+    background-color: darkgoldenrod;
+}
+
+li:last-child {
+    background-color: seagreen;
+} */
+
+/*  even */
+/* li:nth-child(2n){ 
+    background-color: seagreen;
+} */
+
+/* li:nth-child(even) {
+    background-color: seagreen;
+} */
+
+/* odd */
+/* li:nth-child(2n-1){
+    background-color: darkgoldenrod;
+} */
+
+/* li:nth-child(odd) {
+    background-color: darkgoldenrod;
+} */
+
+/* 
+ 2n => n => 0,1,2,3,4,5,6
+
+ 2*0 => 0
+ 2*1 => 2
+ 2*2 => 4
+*/
+
+/* .box {
+    border: 2px solid;
+    width: 100px;
+    height: 100px;
+}
+
+.box:empty { 
+    background: tan;
+} */
+
+.inputbox:focus {
+    background-color: salmon;
+}
+
+.inputbox:disabled {
+    border: 2px solid red;
+}
+
+.inputbox:required {
+    border: 2px solid red;
+}
+
+.inputbox:optional {
+    border: 2px solid green;
+}
+
+.inputbox:read-only {
+    background: slateblue;
+}
+
+.inputbox:read-write {
+    background: lawngreen;
+}
+
+
+.bg-clr {
+    background: var(--theme-clr);
+    margin: 10px;
+}
+
+li {
+    background: var(--theme-clr);
+}
+
+.box:invalid{
+    background-color: red;
+}
